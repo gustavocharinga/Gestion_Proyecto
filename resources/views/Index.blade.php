@@ -24,7 +24,7 @@
 
 
 <div id=preloader>
-  <!--  <img src="/../images/Imagen_De_Carga.jpg">-->
+  <img class="intro" src="/../images/Imagen_De_Carga.jpg">
     <div id=loader></div>
 </div>
 <div id="main">
@@ -32,7 +32,7 @@
     <h2>PAPEL TIJERA</h2>
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<!--<script src="../../public/js/jquery-3.2.1.min.js"></script>-->
+<script src="../../public/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">
     $(window).load(function() {
         $('#preloader').fadeOut('slow');
